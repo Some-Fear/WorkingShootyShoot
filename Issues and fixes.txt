@@ -1,0 +1,16 @@
+Issues and tests
+
+Player cannot move to the bottom of screen - FIXED by editing moveDown() function
+Title Information located incorrectly - Edited instructions-text to reflect new game size
+Start button not centralized - Fixed by editing start-button stlying to reflect new game size
+Bullets are not reaching the far right of the screen - edited moveLaser and checkLaserCollision functions to reflect new game size
+UFOs are not spawning in bottom portion of screen - edited  the function createMonster function
+UFOs are not spawning at the right edge of the screen like intended - edited  the function createMonster function
+Game crashes when holding down shoot bullet button. - FIXED by increasing interval within moveBullet 10 --> 20
+
+
+
+Collision between bullet and ufo isn't consistent with the model. 
+
+
+
