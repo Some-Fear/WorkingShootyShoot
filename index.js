@@ -29,11 +29,11 @@ function shipControls(event) {
 
 function moveUp() {
   let topPosition = window.getComputedStyle(shooter).getPropertyValue('top')
-  if (shooter.style.top === "40px") {
+  if (shooter.style.top === "0px") {
     return
   } else {
     let position = parseInt(topPosition)
-    position -= 8
+    position -= 10
     shooter.style.top = `${position}px`
   }
 }
@@ -45,7 +45,7 @@ function moveDown() {
     return
   } else {
     let position = parseInt(topPosition)
-    position += 8
+    position += 10
     shooter.style.top = `${position}px`
   }
 }
