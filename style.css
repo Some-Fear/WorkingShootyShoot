@@ -1,10 +1,11 @@
+/*This creates a 500x500 area for the game*/
 #playArea {
   width: 500px;
   height: 500px;
   background-image: url('images/space.png');
 
 }
-
+/*this decides how the text looks on the instructions*/
 #instructions-text {
   position: relative;
   color: white;
@@ -12,7 +13,7 @@
   top: -50px;
   text-shadow: 2px 2px black;
 }
-
+/*this decides how the text for the start button looks*/
 #start-button {
   position: relative;
   color: white;
@@ -20,11 +21,11 @@
   top: 115px;
   text-shadow: 2px 2px black;
 }
-
+/*this allows the start button to be pressed*/
 #start-button:hover {
   cursor: pointer;
 }
-
+/*creates the parameters for the player character*/
 #playerCharacter {
   width: 40px;
   height: 40px;
@@ -32,25 +33,25 @@
   left: 20px;
   top: 180px;
 }
-
+/*creates the parameters for the bullets*/
 .bullet {
   width: 10px;
   height: 10px;
   position: relative;
 }
-
+/*creates the parameters for the alien enemies*/
 .alien {
   width: 30px;
   height: 30px;
   position: absolute;
 }
-
+/*this creates the transition effect between an alien which is alive and an alien which is dead*/
 .alien-transition {
   opacity: 1;
   transition: opacity 1.5s ease-out;
 }
 
-
+/*creates the parameters and effect for a dead alien*/
 .dead-alien {
   width: 30px;
   height: 30px;
