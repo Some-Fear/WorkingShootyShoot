@@ -10,7 +10,7 @@ Game crashes when holding down shoot bullet button. - FIXED by increasing interv
 
 
 
-Collision between bullet and ufo isn't consistent with the model. 
-
+Collision between bullet and ufo isn't consistent with the model.  - Fixed, collision now works correctly.
+Bullet pacing too slow. - Bullet speed and alien speed improved.
 
 
