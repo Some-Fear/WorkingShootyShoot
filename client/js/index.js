@@ -2,7 +2,7 @@ const startButton = document.getElementById("start-button")
 const instructions = document.getElementById("instructions-text")
 const mainPlayArea = document.getElementById("playArea")
 const shooter = document.getElementById("playerCharacter")
-const alienImgs = ['/client/images/alien.png', '/client/images/alien1.png', '/client/images/alien2.png']
+const alienImgs = ['images/ufo.png', 'images/ufo1.png', 'images/ufo2.png']
 const scoreCounter = document.querySelector('#score span')
 
 let alienInterval
