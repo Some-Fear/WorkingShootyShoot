@@ -86,7 +86,7 @@ function moveBullet(bullet) {
     } else {
       bullet.style.left = `${xPosition + 4}px`
     }
-  }, 20)
+  }, 5)
 }
 
 
@@ -115,18 +115,18 @@ function moveAlien(alien) {
     } else {
       alien.style.left = `${xPosition - 1}px`
     }
-  }, 30)
+  }, 20)
 }
 
 
 function checkBulletCollision(bullet, alien) {
   let bulletLeft = parseInt(bullet.style.left)
-  let bulletTop = parseInt(bullet.style.top)
+  let bulletTop = parseInt(bullet.style.top) + 13
   let bulletBottom = bulletTop - 10
   let alienTop = parseInt(alien.style.top)
-  let alienBottom = alienTop - 30
+  let alienBottom = alienTop - 29
   let alienLeft = parseInt(alien.style.left)
-  if (bulletLeft != 440 && bulletLeft - 40 >= alienLeft) {
+  if (bulletLeft != 440 && bulletLeft + 10 >= alienLeft) {
     if (bulletTop <= alienTop && bulletBottom >= alienBottom) {
       return true
     } else {
