@@ -2,21 +2,25 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <!--sets the width of the page, to follow the width of the device and sets initial zoom level when first loaded-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--ensures that internet explorer runs in the highest mode for user-->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
   <title>ShootyShoot</title>
 </head>
 <body>
   <div id='playArea'>
-
+	<!--this makes the player character look like the ship picture-->
     <img id='playerCharacter' src="images/ship.png">
-    <h4 id="instructions-text">Help defend the planet!</h4>
+	<!--this is a basic instruction to give the game a little bit of a story-->
+    <h4 id="instructions-text">Help defend the planet from the aliens!</h4>
+	<!--this creates the graphical representation of the start button for the game-->
     <div id="start-button">
       <h1>START</h1>
     </div>
   </div>
-
+	<!--this is the graphical representation of the players score-->
   <div id="score"><h2>Score: <span>0</span></h2></div>
 
 <script type="text/javascript" src="index.js"></script>
